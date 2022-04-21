@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>poop7.actvidad2</OriginalElement>
+  <nodes>
+    <node x="1254.0093582887703" y="43.95721925133688">poop7.actvidad2.Gato</node>
+    <node x="1623.1016042780757" y="73.6417112299464">poop7.actvidad2.Perro</node>
+    <node x="954.863636363636" y="630.8449197860962">poop7.actvidad2.Alumno</node>
+    <node x="808.8810160427809" y="339.27272727272725">poop7.actvidad2.Persona</node>
+    <node x="190.090909090909" y="365.72727272727263">poop7.actvidad2.Escuela</node>
+    <node x="932.7045454545455" y="6.096256684491948">poop7.actvidad2.serVivo</node>
+    <node x="497.34090909090895" y="447.27272727272725">poop7.actvidad2.Profesor</node>
+    <node x="1025.9986631016045" y="339.27272727272725">poop7.actvidad2.Mascota</node>
+    <node x="61.818181818181756" y="719.4545454545455">poop7.actvidad2.ProfesorDeCarrera</node>
+    <node x="497.3409090909089" y="719.4545454545455">poop7.actvidad2.ProfesorAsignatura</node>
+    <node x="497.3409090909089" y="128.27272727272725">poop7.actvidad2.Mesero</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="poop7.actvidad2.Mascota" target="poop7.actvidad2.serVivo" relationship="GENERALIZATION">
+      <point x="0.0" y="-140.0" />
+      <point x="1170.4986631016045" y="92.27272727272725" />
+      <point x="1022.2045454545455" y="92.27272727272725" />
+      <point x="0.0" y="140.0" />
+    </edge>
+    <edge source="poop7.actvidad2.Alumno" target="poop7.actvidad2.Escuela" relationship="GENERALIZATION">
+      <point x="0.0" y="-140.0" />
+      <point x="1118.863636363636" y="686.2727272727273" />
+      <point x="308.590909090909" y="686.2727272727273" />
+      <point x="0.0" y="74.0" />
+    </edge>
+    <edge source="poop7.actvidad2.ProfesorDeCarrera" target="poop7.actvidad2.Profesor" relationship="GENERALIZATION">
+      <point x="0.0" y="-85.0" />
+      <point x="233.81818181818176" y="1016.2727272727273" />
+      <point x="633.340909090909" y="1016.2727272727273" />
+      <point x="0.0" y="107.0" />
+    </edge>
+    <edge source="poop7.actvidad2.Profesor" target="poop7.actvidad2.Escuela" relationship="GENERALIZATION">
+      <point x="0.0" y="-107.0" />
+      <point x="633.340909090909" y="686.2727272727273" />
+      <point x="308.590909090909" y="686.2727272727273" />
+      <point x="0.0" y="74.0" />
+    </edge>
+    <edge source="poop7.actvidad2.Persona" target="poop7.actvidad2.serVivo" relationship="GENERALIZATION">
+      <point x="0.0" y="-85.0" />
+      <point x="910.3810160427809" y="92.27272727272725" />
+      <point x="1022.2045454545455" y="92.27272727272725" />
+      <point x="0.0" y="140.0" />
+    </edge>
+    <edge source="poop7.actvidad2.Escuela" target="poop7.actvidad2.Persona" relationship="GENERALIZATION">
+      <point x="0.0" y="-74.0" />
+      <point x="308.590909090909" y="422.27272727272725" />
+      <point x="910.3810160427809" y="422.27272727272725" />
+      <point x="0.0" y="85.0" />
+    </edge>
+    <edge source="poop7.actvidad2.ProfesorAsignatura" target="poop7.actvidad2.Profesor" relationship="GENERALIZATION">
+      <point x="0.0" y="-85.0" />
+      <point x="680.3409090909089" y="1016.2727272727273" />
+      <point x="633.340909090909" y="1016.2727272727273" />
+      <point x="0.0" y="107.0" />
+    </edge>
+    <edge source="poop7.actvidad2.Mesero" target="poop7.actvidad2.Persona" relationship="GENERALIZATION">
+      <point x="0.0" y="-107.0" />
+      <point x="607.3409090909089" y="422.27272727272725" />
+      <point x="910.3810160427809" y="422.27272727272725" />
+      <point x="0.0" y="85.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.8500000000000001" showDependencies="false" x="1150.0" y="485.0" />
+  <SelectedNodes>
+    <node>poop7.actvidad2.Perro</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
