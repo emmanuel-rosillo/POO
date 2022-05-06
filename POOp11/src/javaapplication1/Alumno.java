@@ -2,6 +2,7 @@ package javaapplication1;
 
 public class Alumno {
 //  atributes
+
     String nombre;
     String apPat;
     String apMat;
@@ -11,7 +12,6 @@ public class Alumno {
 //  constructors
     public Alumno() {
     }
-
     public Alumno(String nombre, String apPat, String apMat, Integer numCuenta, Integer edad) {
         this.nombre = nombre;
         this.apPat = apPat;
@@ -21,7 +21,7 @@ public class Alumno {
     }
 
 //  methods
-//    setters
+//    -setters
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
@@ -39,7 +39,7 @@ public class Alumno {
     public void setEdad(Integer edad) {
         this.edad = edad;
     }
-//    getters
+//   -getters
     public String getNombre() {
         return nombre;
     }
@@ -55,4 +55,5 @@ public class Alumno {
     public Integer getEdad() {
         return edad;
     }
+
 }

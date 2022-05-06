@@ -170,14 +170,18 @@ public class JavaApplication1 {
                     else
                         i++;
                 }
+
             }
+
         } catch (FileNotFoundException ex) {
             Logger.getLogger(JavaApplication1.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ex) {
             Logger.getLogger(JavaApplication1.class.getName()).log(Level.SEVERE, null, ex);
         }
-        for (Alumno alumno:alum) {
+
+        for (Alumno alumno : alum) {
             System.out.println(alumno.getNombre() + ", " + alumno.getApPat() + ", " + alumno.getApMat() + ", " + alumno.getNumCuenta() + ", " + alumno.getEdad());
         }
+
     }
 }
